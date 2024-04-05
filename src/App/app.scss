@@ -1,0 +1,60 @@
+.resumo-do-resultado {
+  display: flex;
+  justify-content: space-between;
+
+  .cartao-esquerdo {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+    .pontuacao {
+      font-size: 48px;
+    }
+
+    .excelente {
+      font-size: 18px;
+    }
+
+    .barra-de-progresso {
+      height: 10px;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .porcentagem {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+
+  .cartao-de-resumo {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+
+    .categoria {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .botao-continuar {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darkgreen;
+    }
+  }
+}

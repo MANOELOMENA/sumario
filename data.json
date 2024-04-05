@@ -1,0 +1,10 @@
+{
+  "pontuacao": 76,
+  "categoria": [
+    {"nome": "Leitura", "pontuacao": "86 / 100"},
+    {"nome": "Escuta", "pontuacao": "89 / 100"},
+    {"nome": "Escrita", "pontuacao": "67 / 100"},
+    {"nome": "Visual", "pontuacao": "78 / 100"}
+  ],
+  "porcentagem": "Você pontuou mais alto do que 45% de todos os jogadores que fizeram este teste."
+}
